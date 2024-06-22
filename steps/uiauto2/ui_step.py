@@ -1,4 +1,3 @@
-
 import uiautomator2 as u2
 
 from att_testlib.base.basic_step import Base
