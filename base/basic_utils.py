@@ -24,7 +24,7 @@ class CommsLib:
 
     @staticmethod
     def transform_date_to_att_standard(date):
-        format = "%Y-%m-%d %H:%M:%S"  
+        format = "%Y-%m-%d %H:%M:%S"
         if isinstance(date, datetime):
             date = datetime.strftime(date, format)
         elif isinstance(date, str):
